@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ControlPanel/app/src/main/res/drawable/ic_keyboard_back.xml" value="0.1" />
+        <entry key="..\:/ControlPanel/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/ControlPanel/app/src/main/res/drawable/ic_leasn.xml" value="0.1" />
+        <entry key="..\:/ControlPanel/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
+        <entry key="..\:/ControlPanel/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_add_channel.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_add_content.xml" value="0.2" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_add_kenawy.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_add_pdf.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_add_soud.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_add_to_data_base.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_edit_channel.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_edit_content.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_main3.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_play_youtube.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_show_data_toedit.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_show_kenawy_to_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/activity_show_sound_to_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/added_content_item.xml" value="0.16" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/app_bar_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/app_bar_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/channel_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/channels_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/content_edit_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/content_fragment.xml" value="0.1962962962962963" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/droplist_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_folder_and_pdf.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_info.xml" value="0.17470427661510465" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_kenawy.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_music.xml" value="0.18" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_number_video.xml" value="0.18" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_pdf.xml" value="0.16" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_pdf_has_lecture.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_play_and_download_sound.xml" value="0.12835625409299278" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_play_videos.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_sounds.xml" value="0.12835625409299278" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_table.xml" value="0.19010416666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_varieties.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/fragment_videos.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/nav_header_home.xml" value="0.1" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/nav_header_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/pdf_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/recycler_item.xml" value="0.22" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/section_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/sound_droplist_item.xml" value="0.19010416666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/sublist_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/layout/video_item.xml" value="0.203125" />
+        <entry key="..\:/ControlPanel/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/ControlPanel/app/src/main/res/menu/home.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/menu/main_activity3.xml" value="0.20416666666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/menu/navigation_menu.xml" value="0.19010416666666666" />
+        <entry key="..\:/ControlPanel/app/src/main/res/mipmap-anydpi-v26/ic_launcher_app.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/contract">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/cardview_default_radius"
+        app:cardPreventCornerOverlap="true"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            tools:ignore="MissingConstraints">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/img"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher_foreground"
+                />
+
+            <TextView
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_10sdp"
+                android:text="@string/channels"
+                android:textSize="@dimen/_15ssp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:weightSum="2"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/card">-->
+<!--        <Button-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_margin="@dimen/_9sdp"-->
+<!--            android:id="@+id/btn_del"-->
+<!--            android:text="مسح"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <Button-->
+<!--            android:layout_weight="1"-->
+<!--            android:id="@+id/btn_edit"-->
+<!--            android:text="تعديل "-->
+<!--            android:layout_margin="@dimen/_9sdp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </LinearLayout>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

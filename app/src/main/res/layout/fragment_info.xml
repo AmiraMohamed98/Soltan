@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/simpleFrameLayout"
+    tools:context=".Sidebar.InfoFragment">
+     <androidx.core.widget.NestedScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+         <TextView
+             android:id="@+id/htmlToTextView"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#4DBFBBBB"
+             android:fitsSystemWindows="true"
+             android:lineSpacingMultiplier="1"
+             android:padding="@dimen/_5sdp"
+             android:textColor="@color/black"
+             android:textSize="@dimen/_13ssp" />
+     </androidx.core.widget.NestedScrollView>
+</FrameLayout>

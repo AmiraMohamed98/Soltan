@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginVertical="@dimen/_5sdp"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt"
+        android:background="@android:color/darker_gray"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/section"
+        android:textSize="@dimen/_15sdp"
+        android:padding="@dimen/_2sdp"
+        style="@style/TextAppearance.AppCompat.Widget.Button" />
+
+</LinearLayout>

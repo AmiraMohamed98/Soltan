@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav">
+
+    <fragment
+        android:id="@+id/nav"
+        android:name="com.soltan.app.ChannelPage.channelsFragment"
+        tools:layout="@layout/channels_fragment" >
+        <action
+            android:id="@+id/action_nav_to_tableFragment"
+            app:destination="@id/tableFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/table_page"
+        android:name="com.soltan.app.Sections.PdfFragment"
+        android:label="قسم"
+        tools:layout="@layout/fragment_pdf" />
+
+    <fragment
+        android:id="@+id/facebook"
+        android:name="com.soltan.app.Sections.PdfFragment"
+        android:label="قنوات"
+        tools:layout="@layout/fragment_pdf" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.soltan.app.Sidebar.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" >
+        <action
+            android:id="@+id/action_infoFragment_to_nav"
+            app:destination="@id/nav" />
+    </fragment>
+    <fragment
+        android:id="@+id/tableFragment"
+        android:name="com.soltan.app.Sidebar.TableFragment"
+        android:label="fragment_table"
+        tools:layout="@layout/fragment_table" />
+</navigation>

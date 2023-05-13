@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/contract"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    android:backgroundTint="@color/cardview_light_background"
+    app:cardCornerRadius="@dimen/cardview_default_radius"
+    tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Media -->
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:id="@+id/webView"
+            android:fadeScrollbars="true"
+            android:fitsSystemWindows="true"
+            android:focusable="true"
+            tools:ignore="WebViewLayout" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relative"
+            android:weightSum="2"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_leasn"
+                style="Widget.MaterialComponents.Button.TextButton.Dialog.FullWidth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="@string/leasn"
+                app:iconTint="@android:color/white"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+
+                app:icon="@drawable/ic_leasn" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/read"
+                android:layout_weight="1"
+                app:iconTint="@android:color/white"
+                android:textColor="@android:color/white"
+                app:icon="@drawable/ic_read"
+                android:layout_margin="@dimen/_5sdp"
+                style="Widget.MaterialComponents.Button.TextButton.Dialog.FullWidth"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:title= "قناه الشيخ الدكتور محمد سيد سلطان" >
+        <menu>
+            <item
+                android:id= "@+id/svcc"
+                android:title= "السيره الذاتيه"
+                />
+            <item
+                android:id= "@+id/table_page"
+                android:title= "جدول الدروس" />
+        </menu>
+    </item>
+    <item
+        android:title= "التواصل" >
+        <menu>
+            <item
+                android:id= "@+id/facebook"
+                android:title= "Facebook" />
+            <item
+                android:id= "@+id/telegram"
+                android:title= "Telegram" />
+            <item
+                android:id= "@+id/whatsapp"
+                android:title= "Whatsapp" />
+        </menu>
+    </item>
+</menu>
